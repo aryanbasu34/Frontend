@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+
+.container {
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    display: flex;
+}
+
+.left-side {
+    background-color: #68A4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left-side>img {
+    width: 85%;
+    aspect-ratio: 1.05/1;
+    padding: 40px 20px;
+
+}
+
+.right-side {
+    background-color: #EDF6FF;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-head {
+    font-size: 4rem;
+    margin: 25px auto 45px auto;
+    border-bottom: 5px solid #68A4FF;
+    padding: auto 20px auto 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.input>input {
+    padding: 15px 13px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    width: 300px;
+    margin: 13px auto;
+    box-shadow: 0px 3px 5px 0px rgba(87,89,91,0.75);
+}
+
+.login-button {
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+
+.login-button>button {
+    padding: 12px 33px;
+    font-size: 18px;
+    background-color: #68A4FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    transition: transform 0.1s ease-out;
+}
+
+.login-button :hover {
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+
+.login-button :active {
+    transform: scale(0.98);
+}
+
+
+
+.signup {
+    background-color: white;
+    padding: 4px 25px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 80px;
+    box-shadow: 0px 3px 5px 0px rgba(87,89,91,0.75);
+}
+
+.signup>a {
+    text-decoration: none;
+    color: #68A4FF;
+}
